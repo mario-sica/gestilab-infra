@@ -1,0 +1,19 @@
+# segreti e ambiente
+.env
+.env.*.local
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# certificati TLS locali/di produzione
+*.pem
+letsencrypt/
+
+# editor / os
+.DS_Store
+*.swp
+.idea/
